@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+
+<script>
+
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+		  
+    }
+
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 700) {
+$('.navi').css('background','black');
+} else {
+$('.navi').css('background','rgba(31,30,30, 0.24)');
+}
+});
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 700) {
+$('.dropdown-menu').css('background','black');
+} else {
+$('.dropdown-menu').css('background','rgba(31,30,30, 0.24)');
+}
+});
+</script>
+
+
+<!--start header/nav-->
+
+<section id="navigation">
+	<div class="navi">
+		<div  class="logo"><a href="#home" style="color:white"><img src="https://img.icons8.com/dusk/64/000000/visual-game-boy.png"/><h1 ><span style="color:red">G</span>a<span style="color:red">m</span>e<span style="color:red">s</span></h1></a></div>
+		<ul>
+			
+			
+			<li><a href="#home" type="button" style="float:right" class="nav"  id="mid" >Home</a></li>
+			
+			<li  class="dropdown">
+				<a href="#MPRN" type="button" style="float:right" class="nav"  id="mid1">Most popular right now</a>
+				
+					<div  class="dropdown-menu">
+					<a href="#10"type="button" style="float:left" class="nav"  id="size">#10</a>
+					<a href="#9"type="button"  style="float:left" class="nav"  id="size">#9</a>
+					<a href="#8"type="button" style="float:left" class="nav"  id="size">#8</a>
+					<a href="#7"type="button" style="float:left" class="nav"  id="size">#7</a>
+					<a href="#6"type="button" style="float:left" class="nav"  id="size">#6</a>
+					<a href="#5"type="button" style="float:left" class="nav"  id="size">#5</a>
+					<a href="#4"type="button" style="float:left" class="nav" id="size">#4</a>
+					<a href="#3"type="button" style="float:left" class="nav"  id="size">#3</a>
+					<a href="#2"type="button" style="float:left" class="nav"  id="size">#2</a>
+					<a href="#1"type="button" style="float:left" class="nav"  id="size">#1</a>
+					</div>
+			</li>
+			
+			
+			
+		</ul>
+			
+	</div>
+
+</section>
+
+<!--end header/nav-->
+<body>
+
+<!--Start Home-->
+		
+
+	
+
+	<ul class="slideshow">
+	<li>
+		<span>img 1</span>
+	</li>
+	<li>
+		<span>img 2 </span>
+	</li>
+	<li>
+		<span>img 3</span>
+	</li>
+	<li>
+		<span>img 4</span>
+	</li>
+	<li>
+		<span>img 5</span>
+	</li>
+	<li>
+		<span>img 6</span>
+	</li>
+	
+</ul>
+	<div class="home container">
+		
+	</div>
+	
+
+
+<!--End Home-->
+<!-- Start Most popular right now-->
+<section id="MPRN">
+	
+	<h1 class="title"   >Most Popular Right Now</h1>
+	
+	<div class="MPRN container">
+		<img class="sonic" src="https://img.icons8.com/color/100/000000/sonic-the-hedgehog-1.png"/>
+		<h2 class="sub-title" id="10">#10 World of Warcraft</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/LK.jpg"  width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide"  onclick="toggle_visibility('p')">Show more / Show less</button>
+		<div class="text"><p>World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe.</p></div>
+		<div  id="p" class="video-wrapper">
+		<p  class="text" >
+		
+		World of Warcraft takes place within the Warcraft world of Azeroth, 
+		approximately four years after the events at the conclusion of Blizzard's 
+		previous Warcraft release, Warcraft III: The Frozen Throne.The game was 
+		announced in 2001, and was released for the 10th anniversary of the Warcraft 
+		franchise on November 23, 2004. Since launch, World of Warcraft has had eight 
+		major expansion packs produced for it: The Burning Crusade, Wrath of the Lich King, 
+		Cataclysm, Mists of Pandaria, Warlords of Draenor, Legion, Battle for Azeroth, and Shadowlands.
+		<br><b>Starting a character or play session</b></br>
+		As with other MMORPGs, players control a character avatar within a game world in third- or 
+		first-person view, exploring the landscape, fighting various monsters, completing quests, and
+		interacting with non-player characters (NPCs) or other players.
+		To create a new character, in keeping with the storyline of previous Warcraft games, players must
+		choose between the opposing factions of the Alliance or the Horde.
+		The player selects the new character's race, such as orcs or trolls for the Horde, or humans or dwarves
+		for the Alliance. Players must select the class for the character, with choices such as mages
+		, warriors, and priests available. Most classes are limited to particular races.
+		As characters become more developed, they gain various talents and skills, requiring the player
+		to further define the abilities of that character.
+		While a character can be played on its own, players can group with others to tackle more
+		challenging content. Most end-game challenges are designed in a way that they can only be 
+		overcome while in a group. In this way, character classes are used in specific roles within a group.
+		
+		
+		
+		<div  class="video">
+		<iframe id="v"  width="1000" height="600" scrolling="yes"src="https://www.youtube.com/embed/s4gBChg6AII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		
+		
+		<h2 class="sub-title" id="9">#9 Ori and the Will of the Whisps</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/ori.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p1')">Show more / Show less</button>
+		<div class="text"><p>Ori and the Will of the Wisps is a platform-adventure Metroidvania video game developed by Moon Studios and published by Xbox Game Studios for Xbox One, Microsoft Windows, and Xbox Series X.</p></div>
+		<div  id="p1" class="video-wrapper">
+		<p class="text" >
+		
+		The title is a direct sequel to 2015's Ori and the Blind Forest, and was released on March 11,
+		2020 for Xbox One and Microsoft Windows.
+		The game was developed by Moon Studios, a collective organization without a set location. 
+		The game's visuals were given an overhaul from the two-dimensional artwork in Blind Forest, 
+		to the three-dimensional models played in multilayered backgrounds in Will of the Wisps.
+		<br><b>Gameplay</b></br>
+		Players assume control of Ori, a white guardian spirit. As Ori, players must jump, climb,
+		glide, and swim between various platforms to solve intricate puzzles. Gameplay unfolds in 
+		the form of a Metroidvania, with new abilities and upgrades allowing players to unlock 
+		previously inaccessible areas of the map.
+		<br><b>The story</b> takes place immediately after the events of Blind Forest and is narrated by 
+		the Spirit Tree in the forest of Niwen. Kuro's last egg hatches, giving birth to a baby 
+		owl whom Ori, Naru, and Gumo name Ku and raise as part of their family. Being born with 
+		a damaged wing, Ku is unable to fly until Gumo affixes Kuro's feather to it. Ku and Ori 
+		go on a flight that ends up taking them out of Nibel and into Niwen, where a storm separates them.
+		
+		<div class="video" >
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/2reK8k8nwBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		
+		
+		<h2 class="sub-title" id="8">#8 Valorant</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/valorant.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p2')">Show more / Show less</button>
+		<div class="text"><p>Valorant is a free-to-play multiplayer tactical first-person
+		shooter developed and published by Riot Games, for Microsoft Windows.It is a team-based tactical shooter and first-person shooter set in the near-future.</p></div>
+		<div  id="p2" class="video-wrapper">
+		<p class="text" >
+		
+		Players play as one of a set of agents, characters designed based on several 
+		countries and cultures around the world. In the main game mode, players are
+		assigned to either the attacking or defending team with each team having 
+		five players on it. Agents have unique abilities each requiring charges, as 
+		well as a unique ultimate ability which requires charging through kills, deaths, 
+		or spike actions. Each player starts each round with a "classic" pistol and with 
+		one or more "signature ability" charge. Other weapons and ability charges can be 
+		purchased using an in game economic system which awards money based on the outcome 
+		of the previous round, any kills the player is responsible for, and any actions 
+		taken with the spike. The game has an assortment of weapons including sidearms, 
+		submachine guns, shotguns, machine guns, assault rifles and sniper rifles.
+		<br><b>Standard</b></br>
+		In the standard mode, the match is played as best of 25 - first team to win 13
+		rounds wins the match. The attacking team has a bomb-type device called the Spike,
+		which they must deliver to a specified location and activate. If the attacking team 
+		successfully protects the activated Spike for a set time, it detonates and they receive
+		a point. If the defending team is able to deactivate the spike, or the 100-second 
+		round timer expires without the attacking team activating the spike, the defending 
+		team receives a point. If all the members of a team are eliminated before the spike 
+		is activated, or if all members of the defending team are eliminated after the spike is 
+		activated, the opposing team earns a point.
+		<br><b>Spike Rush</b></br>
+		In the Spike Rush mode, the match is played as best of 7 rounds - the first team to win
+		4 rounds wins the match. Players begin the round with all abilities fully charged except
+		their ultimate, which charges twice as fast as in standard games.
+		<br><b>Competitive</b></br>
+		Competitive matches are the same as standard matches with the addition of a win-based 
+		ranking system which assigns a rank to each player after 5 games are played.
+		
+		
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/e_E9W2vsRbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title" id="7">#7 Minecraft</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/minecraft.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p3')">Show more / Show less</button>
+		<div class="text"><p>Minecraft is a sandbox video game developed by Mojang Studios. Created by
+		Markus "Notch" Persson in the Java programming language andthe game was officially released in 
+		November 2011.Minecraft has since been ported to various platforms and become the best-selling
+		video game of all time, with 200 million copies sold across all platforms and 126 million monthly
+		active users as of 2020.</p></div>
+		<div  id="p3" class="video-wrapper">
+		<p class="text" >
+		
+		In Minecraft, players explore a blocky, procedurally-generated 3D world with infinite terrain, 
+		and may discover and extract raw materials, craft tools and items, and build structures or 
+		earthworks. Depending on game mode, players can fight computer-controlled "mobs", as well as
+		cooperate with or compete against other players in the same world. Game modes include a survival
+		mode, in which players must acquire resources to build the world and maintain health, 
+		and a creative mode, where players have unlimited resources. Players can modify the game 
+		to create new gameplay mechanics, items, and assets.
+		<br><b>Gameplay</b></br>
+		When starting a new world, players must choose one of five game modes, as well as one of 
+		four difficulties, ranging from peaceful to hard. Increasing the difficulty of the game causes
+		the player to take more damage from mobs, as well as having other difficulty-specific effects.
+		New players have a randomly selected default character skin of either Steve or Alex, but the
+		option to create custom skins was made available in 2010. Players encounter various non-player 
+		characters known as mobs, such as animals, villagers, and hostile creatures. Passive mobs,
+		such as cows, pigs, and chickens, can be hunted for food and crafting materials.
+		They spawn in the daytime, while hostile mobs—including large spiders, skeletons, 
+		and zombies—spawn during nighttime or in dark places such as caves.
+		Players can craft a wide variety of items in Minecraft. Craftable items include armor,
+		which mitigates damage from attacks; weapons (such as swords), which allows monsters and
+		animals to be killed more easily; and tools, which break certain types of blocks more quickly.
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/1DhWXAiNgfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title" id="6">#6 Counter-Strike: Global Offensive</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/cs.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p4')">Show more / Show less</button>
+		<div class="text"><p>Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person 
+		shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in 
+		the Counter-Strike series and was released for Windows, OS X, Xbox 360, and PlayStation 3 in 
+		August 2012, while the Linux version was released in 2014.</p></div>
+		<div  id="p4" class="video-wrapper">
+		<p class="text" >
+		
+		
+		<b>Gameplay</b></br>
+		The game pits two teams against each other: the Terrorists and the Counter-Terrorists. 
+		Both sides are tasked with eliminating the other while also completing separate objectives. 
+		The Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, 
+		while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or 
+		rescue the hostages. There are nine game modes, all of which have distinct characteristics specific 
+		to that mode. The game also has matchmaking support that allows players to play on dedicated Valve 
+		servers, as well as allowing members of the community to host their own servers with custom maps and
+		game modes.
+		There are five categories of purchasable weapons, four being guns and the final being utilities: 
+		rifles, sub-machine guns (SMGs), heavy, pistols, and grenades. All guns have different properties and 
+		all grenade types have different in-game effects. The hand grenade (HE) deals damage in a small radius,
+		the smoke grenade temporarily places a smoke screen, the decoy grenade emulates the player's primary gun, 
+		the flashbang temporarily blinds players who look towards it when it explodes, and the Molotov cocktail 
+		and Incendiary Grenade set a small part of the map on fire for a short period of time. Alongside all 
+		of the main weapons, the Zeus x27, a taser, can also be purchased.
+		
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/C_mltDPyDcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		
+		
+		<h2 class="sub-title" id="5">#5 Grand Theft Auto V</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/gta.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p5')">Show more / Show less</button>
+		<div class="text"><p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North 
+		and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's
+		Grand Theft Auto IV. </p></div>
+		<div  id="p5" class="video-wrapper">
+		<p class="text" >
+		
+		Set within the fictional state of San Andreas, based on Southern California, the single-player story
+		follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, 
+		and drug dealer and arms smuggler Trevor Philips—and their efforts to commit heists while under 
+		pressure from a corrupt government agency and powerful crime figures.
+		The game is played from either a third-person or first-person perspective, and its world is navigated on foot or by vehicle.
+		<br><b>Gameplay</b></br>
+		Players use melee attacks, firearms and explosives to fight enemies, and may run, jump, swim or use
+		vehicles to navigate the world. To accommodate the map's size, the game introduces vehicle types
+		absent in its predecessor Grand Theft Auto IV, such as fixed-wing aircraft. In combat, auto-aim 
+		and a cover system may be used as assistance against enemies. Should players take damage, their 
+		health meter will gradually regenerate to its halfway point. Players respawn at hospitals when 
+		their health depletes. If players commit crimes, law enforcement agencies may respond as
+		indicated by a "wanted" meter in the head-up display (HUD). Stars displayed on the meter 
+		indicate the current wanted level (for example, at the maximum five-star level, police helicopters 
+		and SWAT teams swarm to lethally dispatch players). Law enforcement officers will search for
+		players who leave the wanted vicinity. The meter enters a cool-down mode and eventually recedes when 
+		players are hidden from the officers' line of sight that displays on the mini-map.
+		
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/VjZ5tgjPVfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title" id="4">#4 League of Legends</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/lol.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p6')">Show more / Show less</button>
+		<div class="text"><p>League of Legends (LoL) is a multiplayer online battle arena video game 
+		developed and published by Riot Games for Microsoft Windows and macOS. 
+		Inspired by Defense of the Ancients, the game was released on October 27, 2009.</p></div>
+		<div  id="p6" class="video-wrapper">
+		<p class="text" >
+		
+		In League of Legends, players assume the role of a "champion" with unique abilities and battle
+		against a team of other player- or computer-controlled champions. The goal is usually to destroy 
+		the opposing team's Nexus, a structure that lies at the heart of a base protected by defensive 
+		structures, although other distinct game modes exist as well with varying objectives, rules, and maps. 
+		Champions span a variety of roles and blend a variety of fantasy tropes, tied to a fictional 
+		universe developed by Riot Games through short stories, comics, cinematics, and books.
+		<br><b>Gameplay</b></br>
+		League of Legends is a multiplayer online battle arena (MOBA) game in the three-dimensional isometric perspective.
+		In all game modes, players control characters called champions who each have a set of unique abilities.
+		Players chose or are assigned champions before the start of every match. Champions begin every match
+		at a low level, and then can gain experience over the course of the match to increase their level, 
+		with the maximum being 18. Gaining champion levels in matches allows players to unlock their 
+		champion's special abilities and augment them in a number of ways unique to each character. 
+		If a champion loses all their health, they are defeated but are automatically revived in their
+		base after enough time passes.
+		Across matches, players also earn rewards that are applied to their account. Player accounts begin at level one and progress onward with games played.
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/aR-KAldshAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title"id="3">#3 Fortnite</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/fortnite.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p7')">Show more / Show less</button>
+		<div class="text"><p>Fortnite is an online video game developed by Epic Games and released in 2017.
+		</p></div>
+		<div  id="p7" class="video-wrapper">
+		<p class="text" >
+		
+		Players can use their pickaxe to knock down existing structures on the map to collect basic resources
+		that are wood, brick, and metal. Subsequently, in all modes, the player can use these materials to 
+		build fortifications, such as walls, floors, and stairs. Such fortification pieces can be edited to 
+		add things like windows or doors. The materials used have different durability properties and can be 
+		updated to stronger variants using more materials of the same type. Within Save the World this 
+		enables players to create defensive fortifications around an objective or trap-filled tunnels 
+		to lure husks through. In Battle Royale, this provides the means to quickly traverse the map, 
+		protect oneself from enemy fire, or to delay an advancing foe. Players are encouraged to be very 
+		inventive in designing their fortifications in Creative.
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/9FCRaSwU3W8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title"id="2">#2 Call of Duty: Warzone</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/cod.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p8')">Show more / Show less</button>
+		<div class="text"><p>Call of Duty: Warzone is a free-to-play battle royale video game released on March 10, 2020, for PlayStation 4, 
+		Xbox One, and Microsoft Windows. The game is a part of the 2019 title Call of Duty: Modern Warfare but does not 
+		require purchase of it. Warzone was developed by Infinity Ward and Raven Software and published by Activision.</p></div>
+		<div  id="p8" class="video-wrapper">
+		<p class="text" >
+		
+		Warzone allows online multiplayer combat among 150 players, although some limited-time game modes 
+		support 200 players. Codenamed Operation: Rapid Sunder, it is set in the fictional city of Verdansk
+		, which is loosely based on Donetsk city in Eastern Ukraine, on day 96 of the ongoing in-game 
+		conflict. The game features both cross-platform play and cross-platform progression between both games.
+		The game features two main modes: Plunder and Battle Royale. Warzone introduces a new in-game currency 
+		system called "Cash" which is used at "Buy Stations" in and around Verdansk. "Loadout" drops are 
+		an example of where Cash can be traded for limited access to players' custom classes (which are shared
+		with Modern Warfare's standard modes). Players may also use Cash to purchase items such as 
+		"killstreaks" and gas masks. At launch, Warzone only offered Trios, a squad capacity of three players.
+		However, in free post launch content updates, Solos, Duos and Quads have all been added to the game.
+		<br><b>Gameplay</b></br>
+		The Battle Royale mode is similar to other titles in the genre where players compete in a continuously 
+		shrinking map to be the last player remaining. Players parachute onto a large game map, where they 
+		encounter other players. As the game progresses and players are eliminated, the playable area shrinks 
+		forcing the remaining players into tighter spaces. In Warzone, the non-playable areas become 
+		contaminated with a green gas that depletes health and eventually kills the player if they do not 
+		return to the safe playable area. Unlike other titles, Warzone introduces a new respawn mechanic, 
+		a greater emphasis on vehicles, and a new in-game currency mechanic. Parachuting is unrestricted, 
+		with the player being allowed to open and cut their parachute an unlimited number of times while in air.
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/xvjn6BopsV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+		<h2 class="sub-title"id="1">#1 Fall Guys</h2>
+		
+		
+		<div class="pic">
+			<img src="img/top 10/fallguys.jpg"width="1000" height="600"/>
+		</div>
+		
+		
+		<button class="showhide" onclick="toggle_visibility('p9')">Show more / Show less</button>
+		<div class="text"><p>Fall Guys: Ultimate Knockout is a 2020 battle royale game developed by 
+		Mediatonic and published by Devolver Digital. It was announced at E3 in June 2019 and released on 4 
+		August 2020 for Microsoft Windows on Steam and PlayStation 4. The gameplay has taken inspiration from the 
+		1980s gameshow Takeshi's Castle.</p></div>
+		<div  id="p9" class="video-wrapper">
+		<p class="text" >
+		<b>Gameplay</b></br>
+		Up to 60 players join a match in battle royale-style gameplay. Players, represented as jellybean-like figures,
+		move around a three-dimensional playing field, with additional moves such as jumping, grabbing, or diving to assist gameplay.
+		The aim is to qualify for subsequent rounds by successfully completing each of the randomized pre-selected mini-games.
+		Certain mini-games involve running towards a finish line at the end of the map, while others add elements of teamwork.
+		On every mini-game, obstacles appear around the map for added complexity. Players who are too slow or who fail certain requirements
+		for a mini-game are eliminated. On the final round, the remaining few players compete in a final match with a randomized 
+		mini-game designed for a smaller player size. The winner of the match is the last player standing.
+		
+		
+		<div class="video">
+		<iframe id="v" width="1000" height="600" src="https://www.youtube.com/embed/z6UrdUAZ7wM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</p>
+		</div>
+	
+		
+	</div>
+	
+	
+</section>	
+<!-- End Most popular right now-->
+<!--Start footer-->
+<section id="footer">
+	<div class="footer container">
+	<h1>Check out Socials</h1>
+	<div class="socialmedia">
+		<div class="socialicon">
+			<a href="http://www.facebook.com"><img src="https://img.icons8.com/clouds/100/000000/facebook-new.png"/></a>
+		</div>
+		<div class="socialicon">
+			<a href="http://www.instagram.com"><img src="https://img.icons8.com/clouds/100/000000/instagram-new--v2.png"/></a>
+		</div>
+		<div class="socialicon">
+			<a href="http://www.twitter.com"><img src="https://img.icons8.com/clouds/100/000000/twitter.png"/></a>
+		</div>
+		<p>© 2020 David Cehola</p>
+	</div>
+	</div>
+</section>
+
+
+
+<!--End footer-->
+
+
+</body>
+
+<script  type="text/javascript" src="app.js"></script>
+</html>
